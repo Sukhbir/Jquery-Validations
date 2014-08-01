@@ -1,0 +1,84 @@
+.main-form {
+    background: none repeat scroll 0 0 silver;
+    float: left;
+    width: 100%;
+}
+
+form {
+    margin: 0 auto;
+    width: 400px;
+}
+
+.inner-form {
+    background: none repeat scroll 0 0 skyblue;
+    float: left;
+    padding: 37px 0;
+    width: 400px;
+}
+
+.inner-box {
+    float: left;
+    padding-bottom: 20px;
+    padding-left: 18px;
+    width: 100%;
+}
+.box-child-right {
+    float: left;
+    width: 98px;
+}
+
+.box-child-left {
+    float: left;
+    width: 270px;
+}
+
+.upper-child {
+    float: left;
+    width: 100%;
+}
+.upper-child input {
+    float: left;
+    height: 30px;
+    width: 85%;
+}
+
+.fieldname {
+    float: left;
+    line-height: 29px;
+    width: 100%;
+}
+            .val:before {
+    border-color: red transparent;
+    border-style: solid;
+    border-width: 12px 13px 0 12px;
+    content: "";
+    float: left;
+    margin-top: -18px;
+}
+
+.inner-box > input {
+    background: none repeat scroll 0 0 black;
+    border: medium none;
+    color: white;
+    cursor: pointer;
+    float: right;
+    margin-right: 74px;
+    padding: 7px 20px;
+    text-transform: capitalize;
+}
+.val {
+      background: none repeat scroll 0 0 red;
+    color: white;
+    margin-left: 4px;
+    margin-top: 12px;
+    padding: 6px;
+    width: 170px;
+}
+h1 {
+    float: left;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-transform: capitalize;
+    width: 88%;
+}
